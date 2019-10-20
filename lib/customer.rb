@@ -13,7 +13,7 @@ class Customer
     @pets << animal
   end
 
-  def charge(amount)
-    @outstanding_balance += amount
+  def charge(integer_amount)
+    @outstanding_balance += integer_amount
   end
 end
